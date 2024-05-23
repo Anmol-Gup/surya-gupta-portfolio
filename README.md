@@ -34,7 +34,7 @@ npm i @emailjs/browser
 npm run dev
 ```
 ## License
-This project is licensed under the [MIT License]().
+This project is licensed under the [MIT License](https://github.com/Anmol-Gup/surya-gupta-portfolio/blob/main/LICENSE).
 
 ## React + TypeScript + Vite
 
