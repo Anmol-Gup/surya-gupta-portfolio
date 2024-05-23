@@ -119,8 +119,3 @@ html {
     border-radius: 50%;
     background-color: #ffb400;
 }
-
-.cursor-dot,
-.cursor-outline {
-    pointer-events: none;
-}

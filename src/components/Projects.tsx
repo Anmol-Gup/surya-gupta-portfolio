@@ -33,7 +33,7 @@ const projects: Project[] = [
 const Projects: React.FC = () => {
     return (<div id='projects' data-aos="fade-up" className="project md:container m-auto mt-2 mb-8 flex jutify-center flex-col items-center lg:px-12">
         <h2 className='text-center text-3xl lg:text-4xl text-orange font-medium mb-8 sm:mb-8'>Projects</h2>
-        <div className="cards flex justify-center gap-3 px-8 md:px-10 pb-12">
+        <div className="cards flex justify-center gap-3 px-6 md:px-10 pb-12">
             <TECarousel showControls showIndicators ride="carousel">
                 <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
                     {

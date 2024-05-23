@@ -4,7 +4,7 @@ import Education from "./Education";
 import Experience from "./Experience";
 
 const Qualification: React.FC = () => {
-    return (<div data-aos='fade-up' className="flex lg:flex-row flex-col justify-evenly gap-6 lg:my-6 lg:px-24 md:px-5 px-4 xl:my-14 my-4 md:my-12">
+    return (<div data-aos='fade-up' className="flex lg:flex-row flex-col lg:justify-evenly justify-center gap-6 lg:my-6 lg:px-24 md:px-5 px-4 xl:my-14 my-4 md:my-12">
         <div className="educations basis-1/2">
             <div className="education-heading flex items-center gap-2 mb-3">
                 <FaGraduationCap className="text-white text-3xl text-center mb-2" />

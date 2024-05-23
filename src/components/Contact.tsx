@@ -33,13 +33,13 @@ const Contact: React.FC = () => {
 
     };
 
-    return (<div id='contact' data-aos="fade-up" className="contact md:container m-auto py-4 px-6 md:px-4 lg:px-24">
+    return (<div id='contact' data-aos="fade-up" className="contact md:container m-auto py-4 px-6 md:px-6 lg:px-24">
         <h2 className='text-center text-3xl lg:text-4xl text-orange font-medium mb-2 md:mb-8'>Contact Me</h2>
         <div className="address_contact py-6 flex md:flex-row flex-col-reverse gap-10 md:gap-6">
             <div className="text-white flex flex-col gap-6 basis-1/2 items-center md:items-start">
                 <div className="address flex gap-3 items-center">
                     <FaMapLocationDot className="text-orange lg:text-4xl text-3xl" />
-                    <p className="text-lg">397/12/1 Meerapur, Prayagraj, U.P., India</p>
+                    <p className="text-lg">Prayagraj, Uttar Pradesh, India</p>
                 </div>
                 <div className="email flex gap-3 items-center">
                     <MdEmail className="text-orange lg:text-4xl text-3xl" />
