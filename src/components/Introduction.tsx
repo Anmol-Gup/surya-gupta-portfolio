@@ -9,7 +9,7 @@ const Introduction: React.FC = () => {
                     <h2 className='text-white lg:text-5xl text-4xl font-medium py-3'>Surya P. Gupta</h2>
                     <p className='text-white py-2 text-lg'>I'm a developer based in India, and I'm very passionate and dedicated to my work.</p>
                     <br />
-                    <a href='#' className='about_me decoration-none border-2 bg-orange border-orange font-medium text-white rounded-full px-5 py-2'>
+                    <a href='#about' className='about_me decoration-none border-2 bg-orange border-orange font-medium text-white rounded-full px-5 py-2'>
                         <span>More About Me</span>
                     </a>
                 </div>
