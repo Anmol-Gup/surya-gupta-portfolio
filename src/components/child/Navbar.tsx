@@ -34,8 +34,6 @@ const Navbar: React.FC<NavbarProp> = ({ navColor }) => {
         };
     }, [width])
 
-    console.log('i',width)
-
     const handleLink = (link: string) => {
         setActiveLink(link)
     }
