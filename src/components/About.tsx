@@ -17,7 +17,7 @@ const About: React.FC = () => {
                 <PersonalInfo title="Languages:" text="Hindi, English" />
                 <PersonalInfo title="Address:" text="Prayagraj, Uttar Pradesh, India" />
                 <div className="download_cv py-6">
-                    <a href='../../src/assets/Surya_P__Gupta.pdf' className='decoration-none border-2 bg-black border-orange font-medium text-white rounded-full px-5 py-2' download>
+                    <a href='./Surya_P__Gupta.pdf' className='decoration-none border-2 bg-black border-orange font-medium text-white rounded-full px-5 py-2' download>
                         <span>Download CV</span>
                     </a>
                 </div>
