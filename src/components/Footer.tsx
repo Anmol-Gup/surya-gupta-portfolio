@@ -8,11 +8,11 @@ type SocialMediaAlias = {
 const socialmediaicons: SocialMediaAlias[] = [
     {
         name: 'facebook',
-        link: ''
+        link: 'https://www.facebook.com/profile.php?id=100024963634024'
     },
     {
         name: 'instagram',
-        link: 'instagram.com/suryagupta314'
+        link: 'https://www.instagram.com/suryagupta314'
     },
     {
         name: 'linkedin',
@@ -28,7 +28,7 @@ const socialmediaicons: SocialMediaAlias[] = [
     },
     {
         name: 'twitter',
-        link: 'twitter.com/suryapr0951208',
+        link: 'https://twitter.com/suryapr0951208',
     },
     {
         name: 'snapchat',
