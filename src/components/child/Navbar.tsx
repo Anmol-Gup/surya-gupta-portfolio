@@ -53,7 +53,7 @@ const Navbar: React.FC<NavbarProp> = ({ navColor }) => {
                 <li><a href="#projects" className={`list-none decoration-none ${activeLink === 'projects' ? 'text-orange' : 'text-white'}`} onClick={() => handleLink('projects')}>Projects</a></li>
                 <li><a href="https://myspgcom.wordpress.com/" target='_blank' className={`list-none decoration-none ${activeLink === 'blogs' ? 'text-orange' : 'text-white'}`} onClick={() => handleLink('blogs')}>Blog</a></li>
                 <li><a href="#contact" className={`list-none decoration-none ${activeLink === 'contact' ? 'text-orange' : 'text-white'}`} onClick={() => handleLink('contact')}>Contact</a></li>
-                <li className='my-3 lg:my-0'><a href='./Surya_P__Gupta.pdf' className='list-none decoration-none border-2 border-orange rounded-full px-3 py-2 transition-all ease cv' download>Download CV</a></li>
+                <li className='my-3 lg:my-0'><a href='./SuryaPrakashGupta_Resume.pdf' className='list-none decoration-none border-2 border-orange rounded-full px-3 py-2 transition-all ease cv' download>Download CV</a></li>
             </ul>
         </nav>}
     </>)
