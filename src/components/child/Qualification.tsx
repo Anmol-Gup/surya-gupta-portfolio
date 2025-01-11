@@ -35,19 +35,14 @@ const Qualification: React.FC = () => {
             </div>
             <div className="experiences border-l-2 border-l-orange px-6 flex flex-col gap-4">
                 <Experience 
-                    year='March 2022-May 2023'
+                    year='October 2024 - Present'
+                    organization="Cedcoss Technologies"
+                    role="Software Developer"
+                />
+                <Experience 
+                    year='March 2022 - May 2023'
                     organization="Harman Connected Services"
                     role="Associate Engineer"
-                />
-                <Experience 
-                    year='Septmber 2023-October 2023'
-                    organization="KultureHire"
-                    role="Data Analyst Intern"
-                />
-                <Experience 
-                    year='April 2021-November 2021'
-                    organization="UseMyNotes"
-                    role="Content Writer Intern"
                 />
             </div>
         </div>

@@ -7,7 +7,7 @@ const About: React.FC = () => {
         <h2 className='text-center text-3xl lg:text-4xl text-orange font-medium lg:mb-12 mb-6'>About Me</h2>
         <div className="lg:text-lg personal-info text-lg flex justify-between lg:flex-row flex-col lg:gap-10 gap-7 px-2 sm:px-10 lg:px-20">
             <div className="left basis-1/2 px-3">
-                <p className='lg:text-left text-center'>Hello there! I'm Surya Prakash Gupta, an IT enthusiast & a developer based in India with 1 year of experience in the IT industry, and I'm very passionate and dedicated to my work with an eager to learn about new things. Currently, I am looking for an opportunity to work with someone who can help me grow in my skills and knowledge.</p>
+                <p className='lg:text-left text-center'>Hello there! I'm Surya Prakash Gupta, a Software Developer based in India with more than 1 year of experience in the IT industry, and I'm very passionate and dedicated to my work with an eager to learn about new things. Currently, I am looking for an opportunity to work with someone who can help me grow in my skills and knowledge.</p>
             </div>
             <div className="lg:text-lg right basis-1/2 sm:grid grid-rows-4 grid-cols-2 sm:text-left flex justify-center flex-col text-center sm:px-16 lg:px-10 mb-4 mt-0">
                 <PersonalInfo title="Name:" text="Surya Prakash Gupta" />

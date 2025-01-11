@@ -10,7 +10,7 @@ import { DiMsqlServer } from "react-icons/di";
 import { SiPowerbi } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import SkillIcon from "./SkillIcon";
-
+import { FaHubspot } from "react-icons/fa";
 
 interface TechnologyProp {
     skill: string;
@@ -30,6 +30,7 @@ const renderIcon = (skill: string, level: string) => {
         case 'bootstrap': return <SkillIcon Icon={FaBootstrap} level={level} />
         case 'tailwind': return <SkillIcon Icon={RiTailwindCssFill} level={level} />
         case 'power bi': return <SkillIcon Icon={SiPowerbi} level={level} />
+        case 'hubspot': return <SkillIcon Icon={FaHubspot} level={level} />
         default: return null
     }
 }

@@ -53,6 +53,10 @@ const skills: Skill[] = [
     {
         skill: 'c++',
         level: 'intermediate'
+    },
+    {
+        skill: 'hubspot',
+        level: 'beginner'
     }
 ]
 
