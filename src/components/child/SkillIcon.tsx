@@ -1,11 +1,9 @@
 interface SkillIconProp{
-    level:string;
     Icon:React.ElementType
 }
 
-const SkillIcon: React.FC<SkillIconProp> = ({Icon, level}) => {
+const SkillIcon: React.FC<SkillIconProp> = ({Icon}) => {
     return (<><Icon className="text-5xl md:text-6xl text-white" />
-        <p>{level}</p>
     </>)
 }
 
