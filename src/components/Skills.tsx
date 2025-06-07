@@ -1,62 +1,51 @@
 import Technology from "./child/Technology"
 
 type Skill = {
-    skill: string;
-    level: string
+    skill: string
 }
 
 const skills: Skill[] = [
     {
         skill: 'html',
-        level: 'intermediate'
     },
     {
-        skill: 'css',
-        level: 'intermediate'
+        skill: 'css'
     },
     {
         skill: 'javascript',
-        level: 'intermediate'
+    },
+    {
+        skill: 'typescript',
     },
     {
         skill: 'react',
-        level: 'beginner'
     },
     {
         skill: 'sql',
-        level: 'intermediate'
     },
     {
         skill: 'php',
-        level: 'intermediate'
     },
     {
         skill: 'nodejs',
-        level: 'beginner'
     },
     {
-        skill: 'power bi',
-        level: 'beginner'
+        skill: 'power bi'
     },
     {
         skill: 'tailwind',
-        level: 'beginner'
     },
     {
         skill: 'bootstrap',
-        level: 'intermediate'
     },
     {
         skill: 'python',
-        level: 'intermediate'
     },
     {
         skill: 'c++',
-        level: 'intermediate'
     },
     {
         skill: 'hubspot',
-        level: 'beginner'
     }
 ]
 
@@ -67,7 +56,7 @@ const Skills:React.FC=()=>{
         <div className="flex justify-center gap-10 flex-wrap">
             {
                 skills.map((tech: Skill, index: number) => {
-                    return <Technology skill={tech.skill} level={tech.level} key={index} />
+                    return <Technology skill={tech.skill} key={index} />
                 })
             }
         </div>
