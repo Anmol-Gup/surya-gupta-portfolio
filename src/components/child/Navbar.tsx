@@ -46,7 +46,7 @@ const Navbar: React.FC<NavbarProp> = ({ navColor }) => {
                 <GiHamburgerMenu className="text-white text-2xl" onClick={handleToggle} />
             )}
         </div>
-        {toggle && <nav className={`${navColor ? 'lg:bg-[#1c2541]' : 'lg:bg-[#0b132b]'} lg:static basis-1/2 absolute top-full left-0 lg:top-0 w-full bg-[#0b132b] ${width>=1024 ? 'lg:bg-[#0b132b]':'lg:bg-[#1c2541]'}`}>
+        {toggle && <nav className={`${(navColor && width < 1024} ? 'lg:bg-[#1c2541]' : 'lg:bg-[#0b132b]'} lg:static basis-1/2 absolute top-full left-0 lg:top-0 w-full bg-[#0b132b]`}>
             <ul className={`text-left font-medium lg:w-full lg:h-full flex lg:flex-row lg:justify-evenly flex-col lg:gap-4 gap-2 text-white font-medium px-3 py-4`}>
                 <li><a href="#home" className={`list-none decoration-none ${activeLink === 'home' ? 'text-orange' : 'text-white'}`} onClick={() => handleLink('home')}>Home</a></li>
                 <li><a href="#about" className={`list-none decoration-none ${activeLink === 'about' ? 'text-orange' : 'text-white'}`} onClick={() => handleLink('about')}>About</a></li>
