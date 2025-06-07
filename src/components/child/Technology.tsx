@@ -16,7 +16,7 @@ interface TechnologyProp {
     skill: string;
 }
 
-const renderIcon = (skill: string, level: string) => {
+const renderIcon = (skill: string) => {
     switch (skill) {
         case 'html': return <SkillIcon Icon={FaHtml5} />
         case 'css':  return <SkillIcon Icon={IoLogoCss3} />
@@ -37,7 +37,7 @@ const renderIcon = (skill: string, level: string) => {
 const Technology: React.FC<TechnologyProp> = ({ skill, level }) => {
     return (<div className={`text-center capitalize ${skill} flex flex-col items-center gap-3`}>
         {
-            renderIcon(skill, level)
+            renderIcon(skill)
         }
     </div>)
 }
