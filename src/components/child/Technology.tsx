@@ -37,7 +37,7 @@ const renderIcon = (skill: string) => {
 }
 
 const Technology: React.FC<TechnologyProp> = ({ skill }) => {
-    return (<div className={`text-center capitalize ${skill} flex flex-col items-center gap-3`}>
+    return (<div className={`text-center capitalize ${skill} flex flex-col items-center gap-2`}>
         {
             renderIcon(skill)
         }
