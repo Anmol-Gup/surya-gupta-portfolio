@@ -14,23 +14,22 @@ import { FaHubspot } from "react-icons/fa";
 
 interface TechnologyProp {
     skill: string;
-    level: string;
 }
 
 const renderIcon = (skill: string, level: string) => {
     switch (skill) {
-        case 'html': return <SkillIcon Icon={FaHtml5} level={level} />
-        case 'css':  return <SkillIcon Icon={IoLogoCss3} level={level} />
-        case 'javascript': return <SkillIcon Icon={SiJavascript} level={level} />
-        case 'react': return <SkillIcon Icon={FaReact} level={level} />
-        case 'nodejs': return <SkillIcon Icon={FaNodeJs} level={level} />
-        case 'php': return <SkillIcon Icon={FaPhp} level={level} />
-        case 'sql': return <SkillIcon Icon={DiMsqlServer} level={level} />
-        case 'python': return <SkillIcon Icon={FaPython} level={level} />
-        case 'bootstrap': return <SkillIcon Icon={FaBootstrap} level={level} />
-        case 'tailwind': return <SkillIcon Icon={RiTailwindCssFill} level={level} />
-        case 'power bi': return <SkillIcon Icon={SiPowerbi} level={level} />
-        case 'hubspot': return <SkillIcon Icon={FaHubspot} level={level} />
+        case 'html': return <SkillIcon Icon={FaHtml5} />
+        case 'css':  return <SkillIcon Icon={IoLogoCss3} />
+        case 'javascript': return <SkillIcon Icon={SiJavascript} />
+        case 'react': return <SkillIcon Icon={FaReact}  />
+        case 'nodejs': return <SkillIcon Icon={FaNodeJs}  />
+        case 'php': return <SkillIcon Icon={FaPhp} />
+        case 'sql': return <SkillIcon Icon={DiMsqlServer}  />
+        case 'python': return <SkillIcon Icon={FaPython}  />
+        case 'bootstrap': return <SkillIcon Icon={FaBootstrap}  />
+        case 'tailwind': return <SkillIcon Icon={RiTailwindCssFill}  />
+        case 'power bi': return <SkillIcon Icon={SiPowerbi} />
+        case 'hubspot': return <SkillIcon Icon={FaHubspot} />
         default: return null
     }
 }
