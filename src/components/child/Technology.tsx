@@ -11,6 +11,7 @@ import { SiPowerbi } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import SkillIcon from "./SkillIcon";
 import { FaHubspot } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 
 interface TechnologyProp {
     skill: string;
@@ -30,6 +31,7 @@ const renderIcon = (skill: string) => {
         case 'tailwind': return <SkillIcon Icon={RiTailwindCssFill}  />
         case 'power bi': return <SkillIcon Icon={SiPowerbi} />
         case 'hubspot': return <SkillIcon Icon={FaHubspot} />
+        case 'typescript': return <SkillIcon Icon={SiTypescript} />
         default: return null
     }
 }
