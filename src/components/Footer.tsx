@@ -37,7 +37,7 @@ const socialmediaicons: SocialMediaAlias[] = [
 ]
 
 const Footer: React.FC = () => {
-    return (<footer className="mt-6 flex flex-col gap-4 py-6 bg-[#2b2a2a]">
+    return (<footer className="mt-6 flex flex-col gap-4 py-6 bg-[#1c2541]">
         <p className="text-white text-center">Developed with &#10084; by Surya &copy; {new Date().getFullYear()}</p>
         <div className="socialmedia flex justify-center gap-6">
             {
