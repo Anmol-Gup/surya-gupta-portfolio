@@ -20,10 +20,10 @@ function App() {
   },[])
 
   return (<>
-    <div className='bg-black w-full min-h-screen cursor-none'>
+    <div className='bg-[#0b132b] w-full min-h-screen cursor-none'>
       <CustomCursor />
       <Header />
-      <section className='bg-black'>
+      <section className='bg-[#0b132b]'>
         <Introduction />
         <About />
         <Projects />
