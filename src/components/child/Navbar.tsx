@@ -16,7 +16,6 @@ const Navbar: React.FC<NavbarProp> = ({ navColor }) => {
     };
 
     useEffect(() => {
-        console.log(width, navColor)
         const handleResize = () => {
             setWidth(window.innerWidth);
         };
