@@ -8,11 +8,6 @@ type Project = {
 
 const projects: Project[] = [
     {
-        name: 'project1.png',
-        link: 'https://github.com/Anmol-Gup/mern-blog'
-    }
-    ,
-    {
         name: 'project2.png',
         link: 'https://github.com/Anmol-Gup/shortlinkify-url-shortener'
     },
@@ -27,7 +22,15 @@ const projects: Project[] = [
     {
         name: 'project5.png',
         link: 'https://github.com/Anmol-Gup/RAG-QA-Bot'
-    }
+    },
+    {
+        name: 'project6.png',
+        link: 'https://youtu.be/ghDTGPlo_lU?si=_fG5k2nkvFhpGhHq'
+    },
+    {
+        name: 'project1.png',
+        link: 'https://youtu.be/Ov8YMVFV-iE?si=s1IS7Drl2eUIeGTf'
+    },
 ]
 
 const Projects: React.FC = () => {
