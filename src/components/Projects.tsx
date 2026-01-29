@@ -22,11 +22,11 @@ const projects: Project[] = [
     },
     {
         name: 'project4.png',
-        link: 'https://github.com/Anmol-Gup/react-movie-website'
+        link: 'https://github.com/Anmol-Gup/resume-analyzer'
     },
     {
         name: 'project5.png',
-        link: 'https://github.com/Anmol-Gup/Job_Search'
+        link: 'https://github.com/Anmol-Gup/RAG-QA-Bot'
     }
 ]
 
